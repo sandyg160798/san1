@@ -5,17 +5,13 @@ int main()
     
 	int a;
 	scanf("%d",&a);
-	if(a>0)
-	{
-		printf("\n the num is positive");
-	}
-	else if(a<0)
-	{
-		printf("the num is negative");
-	}
+	if(a%2==0)
+	
+	    printf("even");
 	else
-	{
-		printf("the num is zero");
-	}
+	
+	    printf("odd");
+	    
+	
 	return 0;
 }
